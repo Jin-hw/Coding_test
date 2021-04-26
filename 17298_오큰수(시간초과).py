@@ -1,8 +1,6 @@
 n = int(input())
 
 data = list(map(int, input().split()))
-result = [-1 for _ in range(n)]
-print(result)
 stack = []
 signal = '0'
 
@@ -20,3 +18,5 @@ for i in range(n):
 
 for i in range(n):
     print(stack[i], end=" ")
+
+# 시간 초과
