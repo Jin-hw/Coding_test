@@ -11,5 +11,4 @@ for i in range(n):
                 gong += 1
         if gong == 0:
             count += 1
-        print(count, num[i])
 print(count)
